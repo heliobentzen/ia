@@ -165,7 +165,7 @@ O curso está dividido em **12 módulos**, cobrindo toda a jornada do aprendizad
 
 ## 📅 Grade Semanal
 
-A tabela abaixo apresenta a distribuição das aulas ao longo das 30 semanas letivas, considerando **2 aulas por semana**.
+A tabela abaixo apresenta a distribuição das aulas ao longo das 30 semanas letivas, considerando **2 aulas por semana**. Semanas de transição entre módulos listam as duas aulas separadas por `/`.
 
 | Semana | Aulas | Módulo | Conteúdo |
 |--------|-------|--------|----------|
@@ -270,7 +270,7 @@ Cada pasta de módulo dentro de `conteudo/` segue a convenção:
 ### Instalação Rápida
 
 ```bash
-# Clone o repositório
+# Clone o repositório (substitua <usuario> pelo seu usuário ou organização no GitHub)
 git clone https://github.com/<usuario>/ia.git
 cd ia
 

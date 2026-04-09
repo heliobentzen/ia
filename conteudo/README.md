@@ -1,7 +1,7 @@
 # 📂 Índice de Conteúdos
 
 > **Curso:** Inteligência Artificial e Aprendizado de Máquina
-> **Total:** 60 aulas · 12 módulos · 45 horas-aula
+> **Total:** 60 aulas · 12 módulos · 45 horas de aula (60 × 45 min)
 
 Bem-vindo ao índice central de conteúdos do curso! Esta página é o seu **mapa de navegação**: aqui você encontra todos os módulos, todas as aulas e uma descrição do que será estudado em cada etapa. Use os links diretos para acessar qualquer aula, em qualquer ordem.
 
