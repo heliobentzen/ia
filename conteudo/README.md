@@ -90,11 +90,11 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 16](04-supervisionado-nao-supervisionado/aula-16-vies-variancia.md) | O Dilema Viés-Variância | Underfitting, overfitting e o sweet spot; curvas de aprendizado; capacidade do modelo. |
+| [Aula 16](04-supervisionado-nao-supervisionado/aula-16-fundamentos-supervisionado.md) | O Dilema Viés-Variância | Underfitting, overfitting e o sweet spot; curvas de aprendizado; capacidade do modelo. |
 | [Aula 17](04-supervisionado-nao-supervisionado/aula-17-knn.md) | Algoritmo k-NN (k-Vizinhos Mais Próximos) | Classificação e regressão por proximidade; métricas de distância; escolha do k ótimo. |
-| [Aula 18](04-supervisionado-nao-supervisionado/aula-18-kmeans.md) | Clustering com k-Means | Algoritmo de Lloyd; centróides; critério do cotovelo; k-Means++ para inicialização. |
-| [Aula 19](04-supervisionado-nao-supervisionado/aula-19-dbscan-avaliacao-cluster.md) | DBSCAN e Avaliação de Clustering | Densidade; ruído e outliers; Silhouette Score, Davies-Bouldin; quando usar cada algoritmo. |
-| [Aula 20](04-supervisionado-nao-supervisionado/aula-20-pca-tsne.md) | PCA e t-SNE: Redução de Dimensionalidade | Componentes principais; variância explicada; t-SNE para visualização; UMAP introdução. |
+| [Aula 18](04-supervisionado-nao-supervisionado/aula-18-fundamentos-nao-supervisionado.md) | Clustering com k-Means | Algoritmo de Lloyd; centróides; critério do cotovelo; k-Means++ para inicialização. |
+| [Aula 19](04-supervisionado-nao-supervisionado/aula-19-clustering.md) | DBSCAN e Avaliação de Clustering | Densidade; ruído e outliers; Silhouette Score, Davies-Bouldin; quando usar cada algoritmo. |
+| [Aula 20](04-supervisionado-nao-supervisionado/aula-20-reducao-dimensionalidade.md) | PCA e t-SNE: Redução de Dimensionalidade | Componentes principais; variância explicada; t-SNE para visualização; UMAP introdução. |
 
 ---
 
@@ -107,11 +107,11 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 | Aula | Título | Descrição |
 |------|--------|-----------|
 | [Aula 21](05-regressao-classificacao/aula-21-regressao-linear.md) | Regressão Linear: OLS e Gradiente Descendente | Mínimos quadrados; equação normal; gradiente descendente batch, mini-batch e estocástico. |
-| [Aula 22](05-regressao-classificacao/aula-22-regressao-multipla.md) | Regressão Múltipla e Polinomial | Múltiplas variáveis; multicolinearidade; expansão polinomial; análise de resíduos. |
+| [Aula 22](05-regressao-classificacao/aula-22-regressao-polinomial-regularizada.md) | Regressão Múltipla e Polinomial | Múltiplas variáveis; multicolinearidade; expansão polinomial; análise de resíduos. |
 | [Aula 23](05-regressao-classificacao/aula-23-regressao-logistica.md) | Regressão Logística e Classificação Binária | Função sigmoid; odds ratio; log-loss; limiar de decisão e fronteiras de decisão. |
-| [Aula 24](05-regressao-classificacao/aula-24-classificacao-multiclasse.md) | Classificação Multiclasse e Multilabel | One-vs-Rest, One-vs-One; softmax; classificação multilabel e métricas associadas. |
-| [Aula 25](05-regressao-classificacao/aula-25-svm.md) | Máquinas de Vetores de Suporte (SVM) | Margem máxima; vetores de suporte; kernel trick (linear, RBF, polinomial); SVR. |
-| [Aula 26](05-regressao-classificacao/aula-26-naive-bayes.md) | Naive Bayes e Métricas de Desempenho | Teorema de Bayes; variantes (Gaussiano, Multinomial, Bernoulli); acurácia, precisão, recall, F1. |
+| [Aula 24](05-regressao-classificacao/aula-24-svm.md) | Classificação Multiclasse e Multilabel | One-vs-Rest, One-vs-One; softmax; classificação multilabel e métricas associadas. |
+| [Aula 25](05-regressao-classificacao/aula-25-naive-bayes.md) | Máquinas de Vetores de Suporte (SVM) | Margem máxima; vetores de suporte; kernel trick (linear, RBF, polinomial); SVR. |
+| [Aula 26](05-regressao-classificacao/aula-26-hiperparametros.md) | Naive Bayes e Métricas de Desempenho | Teorema de Bayes; variantes (Gaussiano, Multinomial, Bernoulli); acurácia, precisão, recall, F1. |
 
 ---
 
@@ -125,9 +125,9 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 |------|--------|-----------|
 | [Aula 27](06-arvores-ensembles/aula-27-arvores-decisao.md) | Árvores de Decisão: ID3, C4.5 e CART | Critérios de divisão (Gini, Entropia, MSE); poda; profundidade; interpretabilidade. |
 | [Aula 28](06-arvores-ensembles/aula-28-random-forest.md) | Random Forest e Bagging | Bootstrap aggregating; aleatorização de features; out-of-bag error; feature importance. |
-| [Aula 29](06-arvores-ensembles/aula-29-adaboost.md) | Boosting: AdaBoost | Combinação sequencial de aprendizes fracos; pesos adaptativos; análise de erros. |
-| [Aula 30](06-arvores-ensembles/aula-30-gradient-boosting.md) | Gradient Boosting e GBDT | Ajuste de resíduos; learning rate; subsample; Shrinkage; comparação com RF. |
-| [Aula 31](06-arvores-ensembles/aula-31-xgboost-lightgbm.md) | XGBoost, LightGBM e CatBoost | Otimizações computacionais; regularização; tratamento de categóricas; tuning avançado. |
+| [Aula 29](06-arvores-ensembles/aula-29-gradient-boosting.md) | Boosting: AdaBoost | Combinação sequencial de aprendizes fracos; pesos adaptativos; análise de erros. |
+| [Aula 30](06-arvores-ensembles/aula-30-xgboost-lightgbm-catboost.md) | Gradient Boosting e GBDT | Ajuste de resíduos; learning rate; subsample; Shrinkage; comparação com RF. |
+| [Aula 31](06-arvores-ensembles/aula-31-stacking-blending.md) | XGBoost, LightGBM e CatBoost | Otimizações computacionais; regularização; tratamento de categóricas; tuning avançado. |
 
 ---
 
@@ -139,11 +139,11 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 32](07-redes-neurais/aula-32-perceptron.md) | Neurônio Biológico e o Perceptron | Modelo de McCulloch-Pitts; Perceptron de Rosenblatt; limitações (XOR); regra de aprendizado. |
-| [Aula 33](07-redes-neurais/aula-33-mlp-backpropagation.md) | Redes Multicamadas (MLP) e Backpropagation | Forward pass; função de perda; regra da cadeia; gradiente descendente em redes profundas. |
-| [Aula 34](07-redes-neurais/aula-34-funcoes-ativacao.md) | Funções de Ativação | Sigmoid, tanh, ReLU, Leaky ReLU, ELU, Swish, GELU; problema do gradiente desvanecente. |
-| [Aula 35](07-redes-neurais/aula-35-treinamento-keras.md) | Treinamento com Keras e TensorFlow | API Sequential e Functional; camadas, otimizadores (SGD, Adam, RMSProp); callbacks. |
-| [Aula 36](07-redes-neurais/aula-36-arquiteturas-praticas.md) | Arquiteturas de Referência e Boas Práticas | Inicialização de pesos; Batch Normalization; Skip Connections; tensorboard; debugging. |
+| [Aula 32](07-redes-neurais/aula-32-neuronio-perceptron.md) | Neurônio Biológico e o Perceptron | Modelo de McCulloch-Pitts; Perceptron de Rosenblatt; limitações (XOR); regra de aprendizado. |
+| [Aula 33](07-redes-neurais/aula-33-mlp-arquiteturas.md) | Redes Multicamadas (MLP) e Backpropagation | Forward pass; função de perda; regra da cadeia; gradiente descendente em redes profundas. |
+| [Aula 34](07-redes-neurais/aula-34-backpropagation.md) | Funções de Ativação | Sigmoid, tanh, ReLU, Leaky ReLU, ELU, Swish, GELU; problema do gradiente desvanecente. |
+| [Aula 35](07-redes-neurais/aula-35-otimizadores-funcoes-ativacao.md) | Treinamento com Keras e TensorFlow | API Sequential e Functional; camadas, otimizadores (SGD, Adam, RMSProp); callbacks. |
+| [Aula 36](07-redes-neurais/aula-36-implementando-rna-keras.md) | Arquiteturas de Referência e Boas Práticas | Inicialização de pesos; Batch Normalization; Skip Connections; tensorboard; debugging. |
 
 ---
 
@@ -155,11 +155,11 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 37](08-avaliacao-validacao/aula-37-metricas-classificacao.md) | Métricas de Classificação | Matriz de confusão; precisão, recall, F1; micro/macro/weighted average; quando usar cada uma. |
-| [Aula 38](08-avaliacao-validacao/aula-38-roc-pr.md) | Curvas ROC, PR e AUC | Curva ROC e AUC-ROC; Precision-Recall e AUC-PR; calibração de probabilidades; Brier Score. |
-| [Aula 39](08-avaliacao-validacao/aula-39-metricas-regressao.md) | Métricas de Regressão e Comparação | MAE, MSE, RMSE, R², MAPE; análise de resíduos; comparação entre modelos concorrentes. |
-| [Aula 40](08-avaliacao-validacao/aula-40-validacao-cruzada.md) | Validação Cruzada | k-fold, stratified k-fold, leave-one-out, time-series split; escolha do k; nested CV. |
-| [Aula 41](08-avaliacao-validacao/aula-41-selecao-hiperparametros.md) | Seleção de Hiperparâmetros | Grid Search, Random Search, Optuna (Bayesian Optimization); Halving Search; testes estatísticos. |
+| [Aula 37](08-avaliacao-validacao/aula-37-metricas-regressao.md) | Métricas de Classificação | Matriz de confusão; precisão, recall, F1; micro/macro/weighted average; quando usar cada uma. |
+| [Aula 38](08-avaliacao-validacao/aula-38-metricas-classificacao.md) | Curvas ROC, PR e AUC | Curva ROC e AUC-ROC; Precision-Recall e AUC-PR; calibração de probabilidades; Brier Score. |
+| [Aula 39](08-avaliacao-validacao/aula-39-cross-validation.md) | Métricas de Regressão e Comparação | MAE, MSE, RMSE, R², MAPE; análise de resíduos; comparação entre modelos concorrentes. |
+| [Aula 40](08-avaliacao-validacao/aula-40-curvas-aprendizado.md) | Validação Cruzada | k-fold, stratified k-fold, leave-one-out, time-series split; escolha do k; nested CV. |
+| [Aula 41](08-avaliacao-validacao/aula-41-comparacao-modelos.md) | Seleção de Hiperparâmetros | Grid Search, Random Search, Optuna (Bayesian Optimization); Halving Search; testes estatísticos. |
 
 ---
 
@@ -171,9 +171,9 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 42](09-overfitting-regularizacao/aula-42-regularizacao-l1-l2.md) | Regularização L1 (Lasso) e L2 (Ridge) | Penalidades nos pesos; Elastic Net; efeito de esparsidade; path de regularização; seleção de λ. |
-| [Aula 43](09-overfitting-regularizacao/aula-43-dropout-batchnorm.md) | Dropout e Batch Normalization | Dropout como ensemble implícito; BN: treinamento vs. inferência; Layer Normalization. |
-| [Aula 44](09-overfitting-regularizacao/aula-44-early-stopping-lr.md) | Early Stopping e Learning Rate Schedules | Monitoramento de validação; paciência; Cosine Annealing, Step Decay, Warm Restarts. |
+| [Aula 42](09-overfitting-regularizacao/aula-42-bias-variance.md) | Regularização L1 (Lasso) e L2 (Ridge) | Penalidades nos pesos; Elastic Net; efeito de esparsidade; path de regularização; seleção de λ. |
+| [Aula 43](09-overfitting-regularizacao/aula-43-regularizacao-l1-l2.md) | Dropout e Batch Normalization | Dropout como ensemble implícito; BN: treinamento vs. inferência; Layer Normalization. |
+| [Aula 44](09-overfitting-regularizacao/aula-44-dropout-early-stopping.md) | Early Stopping e Learning Rate Schedules | Monitoramento de validação; paciência; Cosine Annealing, Step Decay, Warm Restarts. |
 | [Aula 45](09-overfitting-regularizacao/aula-45-data-augmentation.md) | Data Augmentation e Técnicas de Expansão | Augmentation para imagens e texto; MixUp, CutMix; synthetic data; SMOTE para desbalanceamento. |
 
 ---
@@ -186,12 +186,12 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 46](10-aprendizado-profundo/aula-46-cnn-introducao.md) | Redes Convolucionais (CNNs) — Introdução | Filtros e feature maps; padding e stride; pooling; receptive field; arquiteturas LeNet e AlexNet. |
-| [Aula 47](10-aprendizado-profundo/aula-47-cnn-avancado.md) | CNNs Avançadas: VGG, ResNet e Inception | Batch Normalization em CNNs; skip connections (ResNets); arquiteturas modernas (EfficientNet). |
+| [Aula 46](10-aprendizado-profundo/aula-46-fundamentos-deep-learning.md) | Redes Convolucionais (CNNs) — Introdução | Filtros e feature maps; padding e stride; pooling; receptive field; arquiteturas LeNet e AlexNet. |
+| [Aula 47](10-aprendizado-profundo/aula-47-cnn.md) | CNNs Avançadas: VGG, ResNet e Inception | Batch Normalization em CNNs; skip connections (ResNets); arquiteturas modernas (EfficientNet). |
 | [Aula 48](10-aprendizado-profundo/aula-48-rnn-lstm.md) | RNNs, LSTMs e GRUs | Gradiente no tempo (BPTT); problema do gradiente desvanecente; LSTM: cell state e gates; GRU. |
-| [Aula 49](10-aprendizado-profundo/aula-49-atencao-transformer.md) | Mecanismo de Atenção e Transformer | Self-attention; multi-head attention; positional encoding; encoder-decoder; BERT vs. GPT. |
+| [Aula 49](10-aprendizado-profundo/aula-49-transformers-atencao.md) | Mecanismo de Atenção e Transformer | Self-attention; multi-head attention; positional encoding; encoder-decoder; BERT vs. GPT. |
 | [Aula 50](10-aprendizado-profundo/aula-50-transfer-learning.md) | Transfer Learning e Fine-Tuning | Feature extraction vs. fine-tuning; congelamento de camadas; domain adaptation; few-shot. |
-| [Aula 51](10-aprendizado-profundo/aula-51-modelos-fundacionais.md) | Modelos Fundacionais e LLMs | BERT, GPT-2/3/4, CLIP, SAM; prompting; in-context learning; limitações e riscos. |
+| [Aula 51](10-aprendizado-profundo/aula-51-llms-foundation-models.md) | Modelos Fundacionais e LLMs | BERT, GPT-2/3/4, CLIP, SAM; prompting; in-context learning; limitações e riscos. |
 
 ---
 
@@ -203,7 +203,7 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 52](11-aplicacoes-reais/aula-52-nlp-aplicado.md) | NLP Aplicado: Classificação e NER | Tokenização; TF-IDF; word embeddings; classificação de sentimentos; Named Entity Recognition. |
+| [Aula 52](11-aplicacoes-reais/aula-52-nlp.md) | NLP Aplicado: Classificação e NER | Tokenização; TF-IDF; word embeddings; classificação de sentimentos; Named Entity Recognition. |
 | [Aula 53](11-aplicacoes-reais/aula-53-visao-computacional.md) | Visão Computacional: Detecção e Segmentação | Object detection (YOLO, Faster R-CNN); segmentação semântica e de instâncias; OpenCV. |
 | [Aula 54](11-aplicacoes-reais/aula-54-series-temporais.md) | Séries Temporais: Previsão e Anomalia | Stationarity; ARIMA; Prophet; LSTM para séries; detecção de anomalias; avaliação temporal. |
 | [Aula 55](11-aplicacoes-reais/aula-55-sistemas-recomendacao.md) | Sistemas de Recomendação | Filtragem colaborativa; baseada em conteúdo; matrix factorization; cold start problem. |
@@ -219,10 +219,10 @@ A seguir, todas as **60 aulas** do curso, com links diretos e descrição resumi
 
 | Aula | Título | Descrição |
 |------|--------|-----------|
-| [Aula 57](12-etica-interpretabilidade/aula-57-vies-algoritmico.md) | Viés Algorítmico: Origens e Impactos | Viés nos dados, no modelo e no uso; estudos de caso (COMPAS, reconhecimento facial, saúde). |
-| [Aula 58](12-etica-interpretabilidade/aula-58-explicabilidade-shap-lime.md) | Explicabilidade: SHAP e LIME | Modelos caixa-branca vs. caixa-preta; SHAP values; LIME; Integrated Gradients; Grad-CAM. |
-| [Aula 59](12-etica-interpretabilidade/aula-59-lgpd-gdpr.md) | LGPD, GDPR e Regulações de IA | Lei Geral de Proteção de Dados (Brasil); GDPR (Europa); regulação da IA na UE (AI Act); direitos. |
-| [Aula 60](12-etica-interpretabilidade/aula-60-ia-responsavel.md) | IA Responsável: FAT, Fairness e o Futuro | Fairness, Accountability, Transparency; checklist de IA responsável; tendências e carreira em IA. |
+| [Aula 57](12-etica-interpretabilidade/aula-57-vies-fairness.md) | Viés Algorítmico: Origens e Impactos | Viés nos dados, no modelo e no uso; estudos de caso (COMPAS, reconhecimento facial, saúde). |
+| [Aula 58](12-etica-interpretabilidade/aula-58-explicabilidade.md) | Explicabilidade: SHAP e LIME | Modelos caixa-branca vs. caixa-preta; SHAP values; LIME; Integrated Gradients; Grad-CAM. |
+| [Aula 59](12-etica-interpretabilidade/aula-59-privacidade-lgpd.md) | LGPD, GDPR e Regulações de IA | Lei Geral de Proteção de Dados (Brasil); GDPR (Europa); regulação da IA na UE (AI Act); direitos. |
+| [Aula 60](12-etica-interpretabilidade/aula-60-uso-responsavel.md) | IA Responsável: FAT, Fairness e o Futuro | Fairness, Accountability, Transparency; checklist de IA responsável; tendências e carreira em IA. |
 
 ---
 
@@ -266,11 +266,11 @@ Use esta lista para navegar rapidamente para qualquer aula:
 <details>
 <summary><strong>📂 Módulo 4 — Aprendizado Supervisionado e Não Supervisionado (aulas 16–20)</strong></summary>
 
-- [Aula 16 — O Dilema Viés-Variância](04-supervisionado-nao-supervisionado/aula-16-vies-variancia.md)
+- [Aula 16 — O Dilema Viés-Variância](04-supervisionado-nao-supervisionado/aula-16-fundamentos-supervisionado.md)
 - [Aula 17 — Algoritmo k-NN](04-supervisionado-nao-supervisionado/aula-17-knn.md)
-- [Aula 18 — Clustering com k-Means](04-supervisionado-nao-supervisionado/aula-18-kmeans.md)
-- [Aula 19 — DBSCAN e Avaliação de Clustering](04-supervisionado-nao-supervisionado/aula-19-dbscan-avaliacao-cluster.md)
-- [Aula 20 — PCA e t-SNE](04-supervisionado-nao-supervisionado/aula-20-pca-tsne.md)
+- [Aula 18 — Clustering com k-Means](04-supervisionado-nao-supervisionado/aula-18-fundamentos-nao-supervisionado.md)
+- [Aula 19 — DBSCAN e Avaliação de Clustering](04-supervisionado-nao-supervisionado/aula-19-clustering.md)
+- [Aula 20 — PCA e t-SNE](04-supervisionado-nao-supervisionado/aula-20-reducao-dimensionalidade.md)
 
 </details>
 
@@ -278,11 +278,11 @@ Use esta lista para navegar rapidamente para qualquer aula:
 <summary><strong>📂 Módulo 5 — Regressão e Classificação (aulas 21–26)</strong></summary>
 
 - [Aula 21 — Regressão Linear: OLS e Gradiente Descendente](05-regressao-classificacao/aula-21-regressao-linear.md)
-- [Aula 22 — Regressão Múltipla e Polinomial](05-regressao-classificacao/aula-22-regressao-multipla.md)
+- [Aula 22 — Regressão Múltipla e Polinomial](05-regressao-classificacao/aula-22-regressao-polinomial-regularizada.md)
 - [Aula 23 — Regressão Logística e Classificação Binária](05-regressao-classificacao/aula-23-regressao-logistica.md)
-- [Aula 24 — Classificação Multiclasse e Multilabel](05-regressao-classificacao/aula-24-classificacao-multiclasse.md)
-- [Aula 25 — Máquinas de Vetores de Suporte (SVM)](05-regressao-classificacao/aula-25-svm.md)
-- [Aula 26 — Naive Bayes e Métricas de Desempenho](05-regressao-classificacao/aula-26-naive-bayes.md)
+- [Aula 24 — Classificação Multiclasse e Multilabel](05-regressao-classificacao/aula-24-svm.md)
+- [Aula 25 — Máquinas de Vetores de Suporte (SVM)](05-regressao-classificacao/aula-25-naive-bayes.md)
+- [Aula 26 — Naive Bayes e Métricas de Desempenho](05-regressao-classificacao/aula-26-hiperparametros.md)
 
 </details>
 
@@ -291,40 +291,40 @@ Use esta lista para navegar rapidamente para qualquer aula:
 
 - [Aula 27 — Árvores de Decisão: ID3, C4.5 e CART](06-arvores-ensembles/aula-27-arvores-decisao.md)
 - [Aula 28 — Random Forest e Bagging](06-arvores-ensembles/aula-28-random-forest.md)
-- [Aula 29 — Boosting: AdaBoost](06-arvores-ensembles/aula-29-adaboost.md)
-- [Aula 30 — Gradient Boosting e GBDT](06-arvores-ensembles/aula-30-gradient-boosting.md)
-- [Aula 31 — XGBoost, LightGBM e CatBoost](06-arvores-ensembles/aula-31-xgboost-lightgbm.md)
+- [Aula 29 — Boosting: AdaBoost](06-arvores-ensembles/aula-29-gradient-boosting.md)
+- [Aula 30 — Gradient Boosting e GBDT](06-arvores-ensembles/aula-30-xgboost-lightgbm-catboost.md)
+- [Aula 31 — XGBoost, LightGBM e CatBoost](06-arvores-ensembles/aula-31-stacking-blending.md)
 
 </details>
 
 <details>
 <summary><strong>📂 Módulo 7 — Redes Neurais Artificiais (aulas 32–36)</strong></summary>
 
-- [Aula 32 — Neurônio Biológico e o Perceptron](07-redes-neurais/aula-32-perceptron.md)
-- [Aula 33 — MLP e Backpropagation](07-redes-neurais/aula-33-mlp-backpropagation.md)
-- [Aula 34 — Funções de Ativação](07-redes-neurais/aula-34-funcoes-ativacao.md)
-- [Aula 35 — Treinamento com Keras e TensorFlow](07-redes-neurais/aula-35-treinamento-keras.md)
-- [Aula 36 — Arquiteturas de Referência e Boas Práticas](07-redes-neurais/aula-36-arquiteturas-praticas.md)
+- [Aula 32 — Neurônio Biológico e o Perceptron](07-redes-neurais/aula-32-neuronio-perceptron.md)
+- [Aula 33 — MLP e Backpropagation](07-redes-neurais/aula-33-mlp-arquiteturas.md)
+- [Aula 34 — Funções de Ativação](07-redes-neurais/aula-34-backpropagation.md)
+- [Aula 35 — Treinamento com Keras e TensorFlow](07-redes-neurais/aula-35-otimizadores-funcoes-ativacao.md)
+- [Aula 36 — Arquiteturas de Referência e Boas Práticas](07-redes-neurais/aula-36-implementando-rna-keras.md)
 
 </details>
 
 <details>
 <summary><strong>📂 Módulo 8 — Avaliação e Validação de Modelos (aulas 37–41)</strong></summary>
 
-- [Aula 37 — Métricas de Classificação](08-avaliacao-validacao/aula-37-metricas-classificacao.md)
-- [Aula 38 — Curvas ROC, PR e AUC](08-avaliacao-validacao/aula-38-roc-pr.md)
-- [Aula 39 — Métricas de Regressão e Comparação](08-avaliacao-validacao/aula-39-metricas-regressao.md)
-- [Aula 40 — Validação Cruzada](08-avaliacao-validacao/aula-40-validacao-cruzada.md)
-- [Aula 41 — Seleção de Hiperparâmetros](08-avaliacao-validacao/aula-41-selecao-hiperparametros.md)
+- [Aula 37 — Métricas de Classificação](08-avaliacao-validacao/aula-37-metricas-regressao.md)
+- [Aula 38 — Curvas ROC, PR e AUC](08-avaliacao-validacao/aula-38-metricas-classificacao.md)
+- [Aula 39 — Métricas de Regressão e Comparação](08-avaliacao-validacao/aula-39-cross-validation.md)
+- [Aula 40 — Validação Cruzada](08-avaliacao-validacao/aula-40-curvas-aprendizado.md)
+- [Aula 41 — Seleção de Hiperparâmetros](08-avaliacao-validacao/aula-41-comparacao-modelos.md)
 
 </details>
 
 <details>
 <summary><strong>📂 Módulo 9 — Overfitting e Regularização (aulas 42–45)</strong></summary>
 
-- [Aula 42 — Regularização L1 (Lasso) e L2 (Ridge)](09-overfitting-regularizacao/aula-42-regularizacao-l1-l2.md)
-- [Aula 43 — Dropout e Batch Normalization](09-overfitting-regularizacao/aula-43-dropout-batchnorm.md)
-- [Aula 44 — Early Stopping e Learning Rate Schedules](09-overfitting-regularizacao/aula-44-early-stopping-lr.md)
+- [Aula 42 — Regularização L1 (Lasso) e L2 (Ridge)](09-overfitting-regularizacao/aula-42-bias-variance.md)
+- [Aula 43 — Dropout e Batch Normalization](09-overfitting-regularizacao/aula-43-regularizacao-l1-l2.md)
+- [Aula 44 — Early Stopping e Learning Rate Schedules](09-overfitting-regularizacao/aula-44-dropout-early-stopping.md)
 - [Aula 45 — Data Augmentation e Técnicas de Expansão](09-overfitting-regularizacao/aula-45-data-augmentation.md)
 
 </details>
@@ -332,19 +332,19 @@ Use esta lista para navegar rapidamente para qualquer aula:
 <details>
 <summary><strong>📂 Módulo 10 — Introdução ao Aprendizado Profundo (aulas 46–51)</strong></summary>
 
-- [Aula 46 — CNNs: Introdução](10-aprendizado-profundo/aula-46-cnn-introducao.md)
-- [Aula 47 — CNNs Avançadas: VGG, ResNet e Inception](10-aprendizado-profundo/aula-47-cnn-avancado.md)
+- [Aula 46 — CNNs: Introdução](10-aprendizado-profundo/aula-46-fundamentos-deep-learning.md)
+- [Aula 47 — CNNs Avançadas: VGG, ResNet e Inception](10-aprendizado-profundo/aula-47-cnn.md)
 - [Aula 48 — RNNs, LSTMs e GRUs](10-aprendizado-profundo/aula-48-rnn-lstm.md)
-- [Aula 49 — Mecanismo de Atenção e Transformer](10-aprendizado-profundo/aula-49-atencao-transformer.md)
+- [Aula 49 — Mecanismo de Atenção e Transformer](10-aprendizado-profundo/aula-49-transformers-atencao.md)
 - [Aula 50 — Transfer Learning e Fine-Tuning](10-aprendizado-profundo/aula-50-transfer-learning.md)
-- [Aula 51 — Modelos Fundacionais e LLMs](10-aprendizado-profundo/aula-51-modelos-fundacionais.md)
+- [Aula 51 — Modelos Fundacionais e LLMs](10-aprendizado-profundo/aula-51-llms-foundation-models.md)
 
 </details>
 
 <details>
 <summary><strong>📂 Módulo 11 — Aplicações de ML em Problemas Reais (aulas 52–56)</strong></summary>
 
-- [Aula 52 — NLP Aplicado: Classificação e NER](11-aplicacoes-reais/aula-52-nlp-aplicado.md)
+- [Aula 52 — NLP Aplicado: Classificação e NER](11-aplicacoes-reais/aula-52-nlp.md)
 - [Aula 53 — Visão Computacional: Detecção e Segmentação](11-aplicacoes-reais/aula-53-visao-computacional.md)
 - [Aula 54 — Séries Temporais: Previsão e Anomalia](11-aplicacoes-reais/aula-54-series-temporais.md)
 - [Aula 55 — Sistemas de Recomendação](11-aplicacoes-reais/aula-55-sistemas-recomendacao.md)
@@ -355,10 +355,10 @@ Use esta lista para navegar rapidamente para qualquer aula:
 <details>
 <summary><strong>📂 Módulo 12 — Ética, Interpretabilidade e Uso Responsável (aulas 57–60)</strong></summary>
 
-- [Aula 57 — Viés Algorítmico: Origens e Impactos](12-etica-interpretabilidade/aula-57-vies-algoritmico.md)
-- [Aula 58 — Explicabilidade: SHAP e LIME](12-etica-interpretabilidade/aula-58-explicabilidade-shap-lime.md)
-- [Aula 59 — LGPD, GDPR e Regulações de IA](12-etica-interpretabilidade/aula-59-lgpd-gdpr.md)
-- [Aula 60 — IA Responsável: FAT, Fairness e o Futuro](12-etica-interpretabilidade/aula-60-ia-responsavel.md)
+- [Aula 57 — Viés Algorítmico: Origens e Impactos](12-etica-interpretabilidade/aula-57-vies-fairness.md)
+- [Aula 58 — Explicabilidade: SHAP e LIME](12-etica-interpretabilidade/aula-58-explicabilidade.md)
+- [Aula 59 — LGPD, GDPR e Regulações de IA](12-etica-interpretabilidade/aula-59-privacidade-lgpd.md)
+- [Aula 60 — IA Responsável: FAT, Fairness e o Futuro](12-etica-interpretabilidade/aula-60-uso-responsavel.md)
 
 </details>
 
