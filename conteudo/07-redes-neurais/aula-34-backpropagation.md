@@ -121,7 +121,7 @@ O backpropagation pode ser resumido nesta receita:
 > 3. **Calcular a perda** $J(\hat{y}, y)$
 > 4. **Backward Pass** — da última camada para a primeira:
 >    - 4a. Calcular $\delta^{(L)}$ na camada de saída
->    - 4b. Para $l = L{-}1, L{-}2, \ldots, 1$: calcular $\delta^{(l)} = (W^{(l+1)T} \delta^{(l+1)}) \odot f'(z^{(l)})$
+>    - 4b. Para $l = L-1, L-2, \ldots, 1$: calcular $\delta^{(l)} = (W^{(l+1)T} \delta^{(l+1)}) \odot f'(z^{(l)})$
 >    - 4c. Calcular gradientes: $\frac{\partial J}{\partial W^{(l)}} = \delta^{(l)} a^{(l-1)T}$
 > 5. **Atualizar pesos:** $W^{(l)} \leftarrow W^{(l)} - \eta \frac{\partial J}{\partial W^{(l)}}$
 > 6. **Repetir** passos 2–5 por $N$ épocas
@@ -241,7 +241,7 @@ def sigma(z):
 # Dados
 x = np.array([0.5, 0.8])
 y = 1.0
-W1 = np.array([[0.4, 0.3], [0.5, 0.7]])
+W1 = np.array([[0.4, 0.3], [0.5, 0.7]])  # Shape: (n_inputs, n_hidden)
 b1 = np.array([0.1, 0.2])
 W2 = np.array([0.6, 0.9])
 b2 = 0.1
@@ -519,7 +519,7 @@ d) Atualize o peso com $\eta = 1.0$
 
 a) $z = 0.3 \times 2.0 = 0.6$, $\hat{y} = \sigma(0.6) = \frac{1}{1+e^{-0.6}} \approx 0.6457$
 
-b) $J = \frac{1}{2}(0.6457 - 1)^2 = \frac{1}{2}(0.1258) \approx 0.0629$
+b) $J = \frac{1}{2}(0.6457 - 1)^2 = \frac{1}{2}(0.1255) \approx 0.0628$
 
 c) $\frac{\partial J}{\partial w} = (\hat{y} - y) \cdot \sigma'(z) \cdot x = (0.6457 - 1) \times 0.6457 \times 0.3543 \times 2.0$
    $= -0.3543 \times 0.2287 \times 2.0 \approx -0.1621$
