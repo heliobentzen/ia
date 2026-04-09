@@ -572,7 +572,7 @@ class MotorEncadeamentoTras:
 
 # ─── Rede Bayesiana Simplificada ─────────────────────────────────────────────
 
-class ResBayesianaSimples:
+class RedeBayesianaSimples:
     """
     Rede Bayesiana simplificada para diagnóstico médico.
     Suporta apenas consultas de variáveis com priors independentes.
@@ -710,7 +710,7 @@ def criar_base_regras_medica() -> List[Regra]:
         Regra(
             nome="GRIPE_TRATAMENTO",
             condicoes={"gripe_confirmada"},
-            conclusao="indicar_antiviralOseltamivir",
+            conclusao="indicar_antiviral_oseltamivir",
             confianca=0.85,
             explicacao="Oseltamivir em até 48h do início dos sintomas"
         ),
@@ -733,7 +733,7 @@ def criar_base_regras_medica() -> List[Regra]:
         Regra(
             nome="RESFRIADO_TRATAMENTO",
             condicoes={"resfriado_confirmado"},
-            conclusao="indicar_tratamento_sintomatic",
+            conclusao="indicar_tratamento_sintomatico",
             confianca=1.0,
             explicacao="Não há tratamento específico; sintomáticos"
         ),
@@ -823,7 +823,7 @@ def demonstrar_sistema_especialista():
     
     # ── Diagnóstico Bayesiano ──────────────────────────────────────────────
     print("\n\n📊 DIAGNÓSTICO BAYESIANO")
-    rede = ResBayesianaSimples()
+    rede = RedeBayesianaSimples()
     
     # Caso com febre, dor muscular e tosse
     sintomas_bayes = ["febre", "dor_muscular", "tosse"]
