@@ -276,14 +276,16 @@ Onde:
 
 ### 4.2 Visualização dos Positional Encodings
 
+A tabela abaixo ilustra o **padrão de frequências** (valores simplificados para mostrar a ideia — os valores exatos seguem a fórmula com $10000^{2i/d}$):
+
 ```
-Posição →   0     1     2     3     4     5     ...
-Dim 0  :  sin(0) sin(1) sin(2) sin(3) sin(4) sin(5)    ← frequência alta
-Dim 1  :  cos(0) cos(1) cos(2) cos(3) cos(4) cos(5)
-Dim 2  :  sin(0) sin(.01) sin(.02) ...                  ← frequência mais baixa
-Dim 3  :  cos(0) cos(.01) cos(.02) ...
-  ⋮         ⋮      ⋮      ⋮
-Dim d-1:  cos(0) cos(~0) cos(~0)  ...                   ← frequência muito baixa
+Posição →     0       1       2       3       4       5     ...
+Dim 0 (sin): 0.000   0.841   0.909   0.141  -0.757  -0.959  ← frequência alta (ω=1)
+Dim 1 (cos): 1.000   0.540  -0.416  -0.990  -0.654   0.284
+Dim 2 (sin): 0.000   0.010   0.020   0.030   ...            ← frequência mais baixa
+Dim 3 (cos): 1.000   0.999   0.999   0.999   ...
+  ⋮            ⋮       ⋮       ⋮
+Dim d-1(cos): 1.000   ≈1.000  ≈1.000  ≈1.000  ...          ← frequência muito baixa
 ```
 
 > 💡 **Intuição:** É como dar a cada posição um "código de barras" único feito de ondas. As primeiras dimensões variam rápido (diferenciando posições próximas), e as últimas variam lentamente (capturando a posição "global").
