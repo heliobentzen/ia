@@ -93,7 +93,8 @@ Ao final desta aula, o estudante será capaz de:
 - ANA – Agência Nacional de Águas e Saneamento Básico. **Conjuntura dos Recursos Hídricos no Brasil 2023**. Brasília: ANA, 2023.
 - IPCC. **Sixth Assessment Report (AR6) — Impacts, Adaptation and Vulnerability**. Cambridge: Cambridge University Press, 2022.
 - INSA – Instituto Nacional do Semiárido. **Sinopse do Censo Demográfico para o Semiárido Brasileiro**. Campina Grande: INSA, 2012.
-- BRASIL. **Programa Nacional de Acesso ao Ensino Técnico e Emprego (PRONATEC)**; **Programa Água para Todos** — Relatórios de Avaliação.
+- BRASIL. Ministério do Desenvolvimento Social. **Programa Água para Todos: Relatório de Avaliação 2014**. Brasília: MDS, 2014.
+- BRASIL. Ministério da Integração Nacional. **Relatório de Gestão do Projeto de Integração do Rio São Francisco (PISF) 2022**. Brasília: MI, 2022.
 
 **Livros e Artigos Científicos:**
 - PORTO, M. F. do A.; PORTO, R. de L. L. **Gestão de bacias hidrográficas**. *Estudos Avançados*, v. 22, n. 63, p. 43–60, 2008.
@@ -257,7 +258,7 @@ A **Política Nacional de Recursos Hídricos (PNRH)** foi um marco histórico:
 | Instrumento | Descrição |
 |---|---|
 | **Planos de Recursos Hídricos** | Planejamento estratégico por bacia |
-| **Enquadramento dos corpos d'água** | Define classes de uso (DO/CONAMA 357) |
+| **Enquadramento dos corpos d'água** | Define classes de uso (Resolução CONAMA nº 357/2005) |
 | **Outorga de uso** | Direito de uso controlado e temporário |
 | **Cobrança pelo uso** | Reconhece o valor econômico da água |
 | **Sistema de Informações** | Base de dados nacional (SNIRH) |
@@ -454,7 +455,7 @@ Essa ficha será recolhida e usada para:
 | 1877 | Grande Seca — início das políticas de açudagem emergencial |
 | 1909 | Criação da Inspetoria de Obras Contra as Secas (IOCS) |
 | 1945 | Criação do DNOCS — Departamento Nacional de Obras Contra as Secas |
-| 1948 | Criação da CODEVASF — Companhia de Desenvolvimento dos Vales do São Francisco |
+| 1948 | Criação da CODEVASF — Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba |
 | 1959 | Criação da SUDENE — Superintendência do Desenvolvimento do Nordeste |
 | 1988 | Constituição Federal: água como bem público; bacia hidrográfica como unidade de gestão |
 | 1997 | **Lei nº 9.433** — Política Nacional de Recursos Hídricos ("Lei das Águas") |
